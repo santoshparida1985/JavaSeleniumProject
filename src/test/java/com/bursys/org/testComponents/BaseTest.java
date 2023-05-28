@@ -47,7 +47,7 @@ public class BaseTest {
 	public LandingPage launchApplication(){
 		
 		driver = initializeDriver();
-		driver.get("https://sqa.fieldequip.com/#/login");
+		driver.get("https://www.google.com/");
 		landingPage = new LandingPage(driver);
 		return landingPage;
 		 
